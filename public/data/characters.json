@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Hulk",
+    "realName": "Bruce Banner",
+    "image": "/image/Hulk.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Iron Man",
+    "realName": "Tony Stark",
+    "image": "/image/Iron.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "image": "/image/Peter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Captain America",
+    "realName": "Steve Rogers",
+    "image": "/image/Roger.jpg"
+  }
+]

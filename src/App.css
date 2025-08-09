@@ -1,0 +1,87 @@
+
+:root {
+    --blue: #0070f3;
+    --black: #0a0a0a;
+    --white: #ffffff;
+    --gray: #e0e0e0;
+    --radius: 10px;
+    --font: 'Segoe UI', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;/* note le / en début */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button {
+    font-family: var(--font);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+input {
+    font-family: var(--font);
+    border-radius: var(--radius);
+    border: 1px solid var(--gray);
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+input:focus {
+    border-color: var(--blue);
+}
+.card {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+.form-container {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: var(--radius);
+}
+.btn-cancel {
+    background-color: #bbb;
+    color: var(--black);
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: var(--radius);
+}
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+    padding: 14px 18px;
+    font-size: 18px;
+    border: 1px solid var(--gray);
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 4px 8px rgba(0, 112, 243, 0.1);
+}
